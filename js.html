@@ -1,0 +1,215 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    h1
+    {
+        color: rgb(12, 12, 12);
+        text-align: center;
+    }
+    body
+    {
+        background:linear-gradient(to right,green,yellow,orange,pink,red);
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        
+    }
+    .a
+    {
+        /* font-family:; */
+       position: relative;
+       width:500px;
+       height: fit-content;
+       color: rgb(22, 21, 21);
+       background-color: rgb(177, 187, 211);
+       padding: 20px;
+       margin-left: 20px; 
+    }
+    .b
+    {
+       width:500px;
+       height: fit-content;
+       color: rgb(14, 13, 13);
+       background-color: rgb(177, 187, 211);
+       padding: 20px;
+       margin-left: 20px; 
+    }
+    .c{
+        width:500px;
+        height: fit-content;
+        color: rgb(10, 10, 10);
+        background-color: rgb(177, 187, 211);
+        padding: 20px;
+        margin-left: 20px; 
+    }
+    .d
+    {
+        width:500px;
+        height: fit-content;
+        color: rgb(5, 5, 5);
+        background-color: rgb(177, 187, 211);
+        padding: 20px;
+        margin-left: 20px; 
+    }
+    .e
+    {
+        width:500px;
+        height: fit-content;
+        color: rgb(8, 8, 8);
+        background-color: rgb(177, 187, 211);
+        padding: 20px;
+        margin-left: 20px; 
+    }
+    .b1
+    {
+       position: relative;
+       width: 20px;
+       height: 20px;
+       background-color: rgb(4, 8, 19);
+       margin-top: 10px;
+    }
+    .b2
+    {
+       position: relative;
+       width: 20px;
+       height: 20px;
+       background-color: rgb(4, 8, 19);
+       margin-top: 10px;
+    }
+    .b3
+    {
+    position: relative;
+       width: 20px;
+       height: 20px;
+       background-color: rgb(4, 8, 19);
+       margin-top: 10px;
+    }
+    button
+    {
+        position: relative;
+        left: 36%;
+        transform: translateX(-50%);
+    }
+    .v
+    {
+        position: relative;
+        width: 800px;
+        left: 56%;
+        transform: translateX(-45%);
+        /* background-color: black; */
+    }
+    .ff
+    {
+        position: absolute;
+        left: 95%;
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+</style>
+<button type="button" id="clock"  onclick="tt()" class="ff">5 : 00</button>
+
+<h1>JAVASCRIPT QUIZ</h1>
+
+<body>
+    <div class="v">
+        <div class="b1"></div>
+        <div class="c">
+            <p>Inside which HTML element do we put the JavaScript?</p>
+            <label >
+                <input type="radio" name="a">&nbsp;script<br>
+                <input type="radio" name="a" onclick="x()">&nbsp;Javascript<br>
+                <input type="radio" name="a">&nbsp;js<br>
+                <input type="radio" name="a">&nbsp;scripting
+            </label>
+        </div>
+        <div class="b1"></div>
+        <div class="c">
+            <p>Which built-in method sorts the elements of an array?</p>
+            <label>
+                <input type="radio" name="b" onclick="x()">&nbsp; changeOrder(order)<br>
+                <input type="radio" name="b">&nbsp;order()<br>
+        <input type="radio" name="b"> &nbsp;sort()<br>
+        <input type="radio" name="b">&nbsp;None of the above.
+    </label>
+</div>
+<div class="b1"></div>
+<div class="a">
+    <p>Which of the following function of String object returns a number indicating the Unicode value of the character at the given index?</p>
+    <label>
+        <input type="radio" name="c" onclick="x()">&nbsp;charAt()<br>
+        <input type="radio" name="c">&nbsp;charCodeAt()<br>
+        <input type="radio" name="c">&nbsp;concat()<br>
+        <input type="radio" name="c">&nbsp; indexOf()
+    </label>
+</div>
+<div class="b1"></div>
+<div class="b">
+    <p>Which of the following function of String object returns the index within the calling String object of the last occurrence of the specified value?</p>
+    <label>
+        <input type="radio" name="d">&nbsp;lastIndexOf()<br>
+        <input type="radio" name="d" onclick="x()">&nbsp;search()<br>
+        <input type="radio" name="d">&nbsp;substr()<br>
+        <input type="radio" name="d">&nbsp;indexOf()
+    </label>
+</div>
+<div class="b1"></div>
+<div class="c">
+    <p>Which of the following function of String object returns a string representing the specified object?</p>
+    <label>
+        <input type="radio" name="e" onclick="x()">&nbsp;toLocaleUpperCase()<br>
+        <input type="radio" name="e">&nbsp;toUpperCase()<br>
+        <input type="radio" name="e">&nbsp; toString()<br>
+        <input type="radio" name="e">&nbsp;substring()
+    </label>
+</div>
+<div class="b2"></div>
+<div class="d">
+    <p>Which of the following function of String object causes a string to be displayed as struck-out text, as if it were in a  tag?</p>
+    <label>
+        <input type="radio" name="e" onclick="x()">&nbsp;sup()<br>
+        <input type="radio" name="e">&nbsp;small()<br>
+        <input type="radio" name="e">&nbsp; strike()<br>
+        <input type="radio" name="e">&nbsp;sub()
+    </label>
+</div>
+<div class="b3"></div>
+<div class="e">
+    <p>Which of the following function of Array object applies a function simultaneously against two values of the array (from left-to-right) as to reduce it to a single value?</p>
+    <label>
+        <input type="radio" name="e" onclick="x()">&nbsp;pop()<br>
+        <input type="radio" name="e">&nbsp;push()<br>
+        <input type="radio" name="e">&nbsp; reduce()<br>
+        <input type="radio" name="e">&nbsp;reduceRight()
+    </label>
+</div>
+<button type="button" onclick="s();">SUBMIT</button>
+</div>
+</body>
+
+<script>
+    let tot =0
+    function x(){
+        tot+=1;
+    }
+function s(){
+    alert("you scored "+tot+" out of 5")
+}
+const t=5;
+let time=t*60;
+function update()
+{
+    if(time==0)
+    {
+        end();
+    }
+    let min = Math.floor(time/60);
+    let sec = time%60;
+    let x = document.getElementById('clock');
+    sec = sec<10?('0'+sec):sec;
+    x.innerHTML=`${min} : ${sec}`
+
+    time--;
+}
+setInterval(update,1000);
+
+</script>
